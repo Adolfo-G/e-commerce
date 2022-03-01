@@ -48,7 +48,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
-## Getting Started
+## Getting Started ✔
 
 You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
@@ -58,7 +58,7 @@ Use the `schema.sql` file in the `db` folder to create your database with MySQL 
 
 Your database should contain the following four models, including the requirements listed for each model:
 
-* `Category`
+* `Category`✔
 
   * `id`
 
@@ -76,7 +76,7 @@ Your database should contain the following four models, including the requiremen
   
     * Doesn't allow null values.
 
-* `Product`
+* `Product`✔
 
   * `id`
   
@@ -118,7 +118,7 @@ Your database should contain the following four models, including the requiremen
   
     * References the `Category` model's `id`.
 
-* `Tag`
+* `Tag`✔
 
   * `id`
   
@@ -134,7 +134,7 @@ Your database should contain the following four models, including the requiremen
   
     * String.
 
-* `ProductTag`
+* `ProductTag`✔
 
   * `id`
 
@@ -158,7 +158,7 @@ Your database should contain the following four models, including the requiremen
 
     * References the `Tag` model's `id`.
 
-### Associations
+### Associations✔
 
 You'll need to execute association methods on your Sequelize models to create the following relationships between them:
 
